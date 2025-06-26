@@ -1,0 +1,6 @@
+"css.validate":false
+"tailwindCSS.experimental.classRegex": [
+  "tw`([^`]*)", // for tw`...` if you're using twin.macro or similar
+  "tw\\(([^)]*)\\)", // for tw(...) styles
+  "class(Name)?=\"([^\"]*)", // standard HTML class usage
+],
